@@ -1,0 +1,93 @@
+
+```html
+<h1>✨ Style My Buttons ✨</h1>
+<p>Apply custom styles to your button in the Style.css file</p>
+<button class="custom-btn1">Click Here</button>
+<button class="custom-btn2">Click Here</button>
+<button class="custom-btn3">Click Here</button>
+```
+
+<style>
+  .custom-btn1 {
+    background-color: orange;
+    color:white;
+    border: none;
+    height: 36px;
+    width: 150px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 8px;
+    opacity: 0.9;
+    overflow: hidden;
+    transition: 0.5s,all ease-in,ease-out,ease-in-out;
+    z-index: 11;
+    transform: scaleX(-1);
+    
+    
+    
+  }
+  .custom-btn1:hover{
+    background-color: greenyellow;
+    transition: 0.5s,all ease;
+    transform: skew(360deg)
+  }
+  .custom-btn1:active{
+    background-color: blue;
+    opacity: 0.2;
+    transform: scale(0.85)
+  }
+
+  
+ .custom-btn2{
+  background-color: rgb(0, 255, 225);
+    color:rgb(66, 45, 45);
+    border: none;
+    height: 36px;
+    width: 150px;
+    cursor: pointer;
+    font-size: large;
+    border-radius: 8px;
+    margin-right: 8px;
+    transition: all 0.2s ease;
+ }
+ .custom-btn2:hover{
+  color: red;
+  background-color: white;
+  transition: all 1s ease;
+  transform: rotate(20deg);
+
+ }
+ 
+ .custom-btn3{
+  background-color: rgb(225, 0, 255);
+    color:rgb(10, 16, 19);
+    border: none;
+    height: 36px;
+    width: 150px;
+    cursor: pointer;
+    font-size: large;
+    border-radius: 5px;
+    margin-right: 8px;
+    transition: all 0.2s ease;
+ }
+    
+  
+ .custom-btn3:hover{
+  background-position: 90px;
+  background-color: brown;
+  transition: all 1s ease;
+  
+  
+ }
+ .custom-btn3:active{
+  background-color: gold;
+  transition:all 1s ease-in-out;
+  transform: rotate(360deg);
+
+  
+ }
+</style>
+
+
